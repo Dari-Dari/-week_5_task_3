@@ -1,0 +1,285 @@
+/*Шапка верхняя*/
+.header-up,
+.header-down {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    height: 57px;
+}
+
+.city,
+.header-menu,
+.header-delivery {
+    display: flex;
+    align-items: center;
+}
+
+.city,
+.logo-header-down {
+    margin-left: 5em;
+}
+
+.city-arrow {
+    font-size: 7px;
+    transform: rotate(90deg);
+    margin: 3px 0 0 5px;
+}
+
+
+.header-menu p,
+.header-delivery p {
+    padding: 0 5px 0 5px;
+}
+
+.time p {
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+
+}
+
+.change-lng,
+.menu-down {
+    margin-right: 10vw;
+}
+
+/*Шапка нижняя*/
+.tel-number-header-down {
+    display: flex;
+    padding: 20px;
+}
+
+.tel-number-header-down p {
+    padding-left: 10px;
+    color: beige;
+}
+
+
+.header-down {
+    background-color: darkgreen;
+}
+
+.search-form input[type="text"] {
+    width: 398px;
+    height: 38px;
+    border: 1px solid beige;
+    background-color: darkgreen;
+    font: 20px bold;
+    margin: auto;
+    border-radius: 5px;
+}
+
+.search-form ::placeholder {
+    padding-left: 10px;
+    color: beige;
+}
+
+.search-form button {
+    border-radius: 5px;
+    background-color: rgb(78, 114, 78);
+    margin-top: auto;
+}
+
+
+
+.main-banner {
+
+    background-image: url(/3_new_site_with_flexbox/assets/main/florist-with-flowers-woman-makes-bouquet1.png);
+    background-size: cover;
+}
+
+.main-text {
+    padding: 100px;
+    font-size: 30px;
+    color: darkgreen;
+}
+
+.main-text p {
+    padding: 0;
+    margin: 0;
+}
+
+.main-text button {
+    margin: 25px;
+    background-color: rgb(78, 114, 78);
+    color: beige;
+    border: 1px solid beige;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.menu {
+    margin: 0;
+    background-color: beige;
+}
+
+.menu-block {
+    flex: 0 0 content;
+    width: 1300px;
+    height: 280px;
+    flex: 0 0 content;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 150px;
+    padding-top: 50px;
+}
+
+.menu-block p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 129px;
+    background-color: rgb(252, 251, 251);
+    margin: 5px;
+}
+
+.flowers {
+    background-color: beige;
+    margin: 0;
+
+}
+
+.flowers h3 {
+    margin-left: 110px;
+    font-size: 30px;
+    margin: 0 110px;
+    padding-top: 50px;
+}
+
+.flower {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 110px;
+    margin-right: 250px;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1500px;
+    height: auto;
+    margin-left: 110px;
+}
+
+.product {
+    width: 290px;
+    margin: 20px;
+    padding: 20px;
+    color: darkgreen;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.product h3 {
+    text-align: center;
+}
+
+:link,
+:visited {
+    color: darkgreen;
+    text-decoration: none;
+}
+
+/*Footer*/
+.footer-footer {
+    background-size: contain;
+    height: 592px;
+    background-image: url(/3_new_site_with_flexbox/assets/footer/footer-banner.png);
+}
+
+.footer {
+
+    display: flex;
+    justify-content: space-around;
+}
+
+.contacts {
+    margin: 100px auto 0 100px;
+    color: beige;
+}
+
+.footer-icon-messengers {
+    margin: 100px auto 0 100px;
+
+}
+
+nav ul {
+    list-style: none;
+    margin: 0 0 0 100px;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+.footer--product-menu ul li a {
+    color: beige;
+    text-decoration: none;
+
+}
+
+.footer--product-menu,
+.footer-menu {
+    margin-top: 100px;
+}
+
+.footer-menu ul li a {
+    color: beige;
+    text-decoration: none;
+}
+
+.mailimg-n-contacts {
+    margin: 100px 200px 0 0;
+    color: beige;
+}
+
+.form {
+    display: flex;
+    height: 40px;
+    margin-bottom: 50px;
+}
+
+.mailimg-n-contacts input[type="email"] {
+    width: 265px;
+    height: 40px;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    background-color: rgb(3, 69, 59);
+    color: beige;
+    border: 1px solid beige;
+    border-radius: 5px 0 0 5px;
+}
+
+.mailimg-n-contacts button {
+    width: 151px;
+    height: 40px;
+    background-color: rgb(78, 114, 78);
+    color: beige;
+    border: 1px solid beige;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+.text-footer {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 300px 0 150px;
+    color: beige;
+    padding-top: 20px;
+    font-size: 15px;
+}
+
+.about {
+    margin: 0 150px;
+    padding: 0;
+    color: beige;
+    font-size: 10px;
+}
